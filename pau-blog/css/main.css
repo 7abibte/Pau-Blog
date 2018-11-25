@@ -1,0 +1,458 @@
+/*** BASE STYLES ***/
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    color: #444A65;
+}
+
+#recent-posts, .posts, .post-alternate, #about {
+	height: 600px;
+}
+
+#contact {
+	height: 130px;
+}
+
+/*** GRID ***/
+
+.full-width {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+}
+
+.third-width {
+	width: 33%;
+	float: left;
+}
+
+.two-thirds-width {
+	width: 66%;
+	float:left;
+}
+
+/*** HEADER ***/
+
+#nav-height {
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
+
+header h1 { 
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin: 0;
+}
+
+header h1 a {
+	text-transform: none;
+    text-decoration: none;
+    color: #C2897C; 
+}
+
+nav {
+    float: right; 
+    padding-right: 25px;
+  
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: none;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 80px; 
+    color: #444A65;
+}
+
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 18px; 
+  border: none;
+  outline: none;
+  color: inherit;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F2F7FB;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #F2E3DC;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+main {
+	clear: left;
+	border-top: 1px outset #C9CBCE;
+}
+
+
+#landing-box {
+	margin: 0;
+	background-image: url(../img/pau3.jpeg);
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	background-attachment: fixed;
+    background-position: center; 
+}
+
+
+#landing-box h2 {
+	font-size: 60px;
+	margin: 0;
+	padding-top: 50px;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 7px;
+	color: #FFFFFF;
+	text-shadow: 2px 2px 5px #000000;
+	text-align: center;
+	padding-top: 500px;
+}
+
+
+/*** POSTS ***/
+
+
+.posts {
+	text-align: center;
+	clear: left;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	background: #F2F7FB;
+}
+
+
+.posts h3 {
+	font-size: 28px;
+	text-align: left;
+	padding-left: 25px;
+}
+
+.posts h4 {
+	color: #444A65;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #73808B;
+	margin: 0;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: 400;
+}
+
+.posts h5 {
+	margin: 0;
+	text-align: left;
+	padding: 5px 0 5px 15px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.posts p {
+	padding-left: 15px;
+	text-align: justify;
+}
+
+
+.post-padding {
+	padding: 0 25px;
+}
+
+.posts img {
+	width: 100%;
+	border: 15px solid #FFFFFF;
+}
+
+.clear-ref a {
+	text-transform: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*** POSTS ALTERNATE ***/
+
+.post-alternate {
+	text-align: center;
+	clear: left;
+	padding-top: 15px;
+	padding-bottom: 35px;
+	background-color: #F2E3DC;
+}
+
+
+.post-alternate h3 {
+	font-size: 28px;
+	text-align: left;
+	padding-left: 25px;
+}
+
+.post-alternate h4 {
+	color: #444A65;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px #73808B;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: 400;
+	margin: 0;
+}
+
+.post-alternate h5 {
+	margin: 0;
+	text-align: left;
+	padding: 5px 0 5px 15px;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.post-alternate p {
+	padding-left: 15px;
+	text-align: justify;
+}
+
+
+.post-padding {
+	padding: 0 25px;
+}
+
+.post-alternate img {
+	width: 100%;
+	border: 15px solid #FFFFFF;
+}
+
+.clear-ref a {
+	text-transform: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*** ABOUT ***/
+
+#about {
+	padding: 100px 50px 0 50px;
+	background-color: #F2E3DC;
+}
+
+#about img {
+	height: auto;
+	width: 100%;
+}
+
+#about-text {
+	margin-left: 25px;
+	padding: 10px 0;
+	background-color: #FFFFFF;
+}
+
+#about h2 {
+	font-size: 35px;
+	font-family: 'Cedarville Cursive', cursive;
+	font-weight: 400;
+	padding-left: 50px;
+	margin-bottom: 0;
+}
+
+#about p, #about h4 {
+	padding: 0 50px;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+#about a {
+	text-transform: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+#about h3 {
+	text-align: center;
+}
+
+#about ul {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+}
+#about ul li {
+     display: inline-block;
+}
+#about ul img {
+    padding-right: 48px;
+    height: 60px;
+    width: auto;
+}
+
+/*** CONTACT ***/
+#contact {
+	background-color: #FFFFFF;
+	padding-top: 5px;
+	border-top: 1px outset #C9CBCE;
+}
+
+#contact h3 {
+	font-size: 24px;
+	text-align: center;
+	margin: 5px 0;
+}
+
+#contact a {
+	text-transform: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact ul {
+    list-style: none;
+    text-align: center;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+    height: 45px;
+    width: auto;
+}
+
+/*** ARTICLE PAGE ***/
+
+.text {
+	background-color: #FFFFFF;
+	margin: 0 200px;
+	padding: 30px 50px 30px 50px;
+}
+
+.text .align {
+	text-align: center;
+}
+
+.article h2 {
+	text-align: left;
+	font-size: 20px;
+	font-weight: 400;
+	color: #A2A5BB;
+	letter-spacing: 2px;
+}
+
+.article h2 a {
+	text-transform: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.article h1 {
+	color: #C2897C;
+	text-align: left;
+	color: #444A65;
+	font-family: 'Philosopher', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+}
+
+.article h3 {
+	text-align: left;
+	font-size: 16px;
+	font-weight: 400;
+	color: #A2A5BB;
+	padding-bottom: 30px;
+}
+
+#about-special {
+	font-family: 'Cedarville Cursive', cursive;
+	padding-bottom: 0;
+	line-height: 55px;
+}
+
+.text img {
+	width: 85%;
+	height: auto;
+	padding: 30px 0;
+}
+
+.text p, ul, li  {
+	font-size: 18px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+#list-style {
+	margin-left: -40px;
+	line-height: 50px;
+}
+
+.text ul {
+	font-weight: 800;
+}
+
+.text li {
+	font-weight: 400;
+	line-height: 35px;
+}
+
+#salutation {
+	font-weight: 800;
+	font-size: 40px;
+	color: #C2897C;
+	font-family: 'Caveat', cursive;
+	margin: 0;
+	padding-bottom: 35px;
+}
+
+#salutation-img {
+	width: auto;
+	height: 150px;
+	border-radius: 50%;
+
+}
+
+.highlight-ref {
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
